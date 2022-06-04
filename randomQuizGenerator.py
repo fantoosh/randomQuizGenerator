@@ -7,8 +7,8 @@ capitals = capitals.capitals
 
 # Generate 35 quize files.
 for quizNum in range(35):
-    quizFile = open ('capitalsquiz%s.txt' % (quizNum + 1), 'w')
-    answerKeyFile =  open('capitalsquiz_answer%s.txt' % (quizNum +1), 'w')
+    quizFile = open ('quizes\capitalsquiz%s.txt' % (quizNum + 1), 'w')
+    answerKeyFile =  open('answers\capitalsquiz_answer%s.txt' % (quizNum +1), 'w')
 
     # Write out the header for the quiz.
     quizFile.write('Name:\n\nDates:\n\nPeriod:\n\n')
